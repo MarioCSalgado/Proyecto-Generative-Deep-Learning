@@ -1,0 +1,30 @@
+# Datos pesados: no se suben (ver avance1/data/README.md)
+**/data/raw/*
+**/data/processed/*
+!**/data/**/.gitkeep
+
+# Salidas del notebook al correrlo (modelos y figuras): solo se suben el README y las tablas .csv
+**/runs/*
+!**/runs/README.md
+!**/runs/*.csv
+
+# Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# LaTeX
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.synctex.gz
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+runs/experimentos.csv

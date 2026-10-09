@@ -1,0 +1,7 @@
+archivo,alto_px,ancho_px,crs,res_m,sin_dato_preV_%,sin_dato_preO_%,sin_dato_post_%,pino_%,quemado_dnbr_%pino,quemado_ref_%pino,IoU_dnbr_ref
+piloto_biobio_2023_v2_worldcover-0000000000-0000000000.tif,4096,4096,EPSG:32718,10.0,0.0,0.0,0.0,62.7,13.2,17.0,0.579
+piloto_biobio_2023_v2_worldcover-0000000000-0000004096.tif,4096,3212,EPSG:32718,10.0,0.0,0.0,0.0,53.5,7.7,10.3,0.494
+piloto_biobio_2023_v2_worldcover-0000004096-0000000000.tif,4096,4096,EPSG:32718,10.0,0.0,0.0,0.0,81.6,28.9,35.1,0.768
+piloto_biobio_2023_v2_worldcover-0000004096-0000004096.tif,4096,3212,EPSG:32718,10.0,0.0,0.0,0.0,49.2,9.1,11.6,0.45
+piloto_biobio_2023_v2_worldcover-0000008192-0000000000.tif,851,4096,EPSG:32718,10.0,0.0,0.0,0.0,75.7,12.3,20.6,0.549
+piloto_biobio_2023_v2_worldcover-0000008192-0000004096.tif,851,3212,EPSG:32718,10.0,0.0,0.0,0.0,48.8,37.9,38.8,0.769

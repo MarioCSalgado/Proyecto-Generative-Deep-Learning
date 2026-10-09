@@ -1,0 +1,15 @@
+nombre,descripcion,auroc_val,auroc_test,auroc_estacional,unidades_activas,epocas,segundos
+E1_base,Baseline VAE beta=0.5,0.832,0.806,0.569,64,50,165.3
+E3_beta0_AE,Autoencoder (beta=0),0.836,0.821,0.561,64,50,129.1
+E3_beta0.1,VAE beta=0.1 (mejor por validacion),0.852,0.834,0.565,64,50,130.0
+E3_beta1,VAE beta=1,0.831,0.804,0.570,64,50,131.6
+E3_beta2,VAE beta=2,0.835,0.808,0.569,64,50,131.5
+E3_beta4,VAE beta=4,0.824,0.778,0.565,64,50,135.4
+E2_beta1_warmup,Warm-up lineal de la KL en 10 epocas hasta beta=1,0.843,0.821,0.564,64,50,131.3
+E2_beta4_warmup,Warm-up lineal de la KL en 10 epocas hasta beta=4,0.828,0.790,0.567,64,50,131.3
+E4_regularizado,Weight decay 1e-4 y paciencia 10 (early stopping),0.830,0.801,0.567,64,50,131.8
+E5_pre_otono,Entrenar con el compuesto de otono previo,0.836,0.799,0.542,64,50,131.5
+E6_etiqueta_ref,Evaluar con etiqueta MODIS MCD64A1,0.837,0.814,0.568,64,50,131.4
+E6_ref_sin_NBR,MODIS y sin el canal NBR,0.649,0.615,0.554,64,50,124.6
+E7_E3_beta0.1_seed1,E3 beta=0.1 semilla 1,0.847,0.831,0.562,64,50,133.7
+E7_E3_beta0.1_seed2,E3 beta=0.1 semilla 2,0.855,0.831,0.560,64,50,133.8

@@ -1,0 +1,9 @@
+torch>=2.1
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+rasterio
+earthengine-api
+jupyter

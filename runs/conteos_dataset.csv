@@ -1,0 +1,10 @@
+etapa,split,total,solapados,sano_dnbr,quemado_dnbr,ambiguo_dnbr,sano_ref,quemado_ref,ambiguo_ref
+preV,train,10188,7292,,,,,,
+preV,val,669,0,,,,,,
+preV,test,564,0,,,,,,
+preO,train,10188,7292,,,,,,
+preO,val,669,0,,,,,,
+preO,test,564,0,,,,,,
+post,train,4660,0,2896.0,946.0,818.0,2896.0,1191.0,573.0
+post,val,1040,0,669.0,172.0,199.0,669.0,249.0,122.0
+post,test,1114,0,564.0,312.0,238.0,564.0,409.0,141.0
