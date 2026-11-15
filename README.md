@@ -5,6 +5,24 @@ Proyecto del curso **Generative Deep Learning** (Universidad de Concepción) —
 Un **VAE convolucional** se entrena solo con parches de plantación sana vistos por Sentinel-2. Lo que el modelo no logra
 reconstruir se usa como **puntaje de daño**, y se valida con los incendios de 2023 en la región del Biobío, Chile.
 
+## Resultados (avance 1)
+
+El modelo se evalúa con 564 parches sanos y 312 quemados de después del incendio, que no vio al entrenar. El error de reconstrucción separa bien unos de otros:
+
+| Experimento | AUROC en test |
+|---|---:|
+| Baseline (β = 0,5) | 0,806 |
+| β = 0,1 | 0,834 |
+| β = 0,1 con 3 semillas | 0,832 ± 0,002 |
+
+- Bajar β (menos peso a la KL) mejora la detección, y el resultado es estable entre semillas.
+- El canal NBR, que mide quema, es clave: con la etiqueta de MODIS, quitarlo baja el AUROC de 0,814 a 0,615.
+- En el mapa, el puntaje de daño se correlaciona con la fracción quemada de cada zona (Spearman = 0,54).
+
+![Mapa del puntaje de daño](entregas/avance1/figuras/09_mapa_puntaje.jpg)
+
+El detalle de los experimentos (E1 a E7) y los desafíos que quedaron abiertos está en [`entregas/avance1`](entregas/avance1/).
+
 ## Estructura
 
 ```
